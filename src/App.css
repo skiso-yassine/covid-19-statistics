@@ -1,0 +1,49 @@
+.container h3{
+  color: rgb(12, 116, 200);
+}
+
+h6{
+  color: rgb(154, 156, 158);
+  font-style: italic;
+}
+
+.column{
+    border: none;
+    border-radius: 5px;
+    background: rgba(143, 184, 218, 0.2);
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+    box-shadow: 3px 3px rgba(87, 167, 233, 0.9);
+    height: 250px;
+}
+.columnDet{
+    border: none;
+    border-radius: 5px;
+    background: rgba(143, 184, 218, 0.2);
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+    box-shadow: 3px 3px rgba(34, 187, 200, 0.9);
+    text-align: left;
+}
+
+span{
+  color:rgb(12, 116, 200);
+  font-style: italic;
+}
+
+table{
+  width: 100%;
+}
+
+td img{
+  width: 100px;
+}
+
+.tableDet{
+  border: none;
+    text-align-last: left;
+    margin-left: 45px;
+    margin-top: 20px;
+}
