@@ -42,7 +42,6 @@ class PieChart extends Component {
         fetch('https://disease.sh/v3/covid-19/all')
         .then(res => {
             res.json().then(res => {
-                console.log(res.updated);
                 this.setState({
                     dataRow:[
                         {'name':'Cases','value':res.cases},
@@ -197,7 +196,7 @@ class PieChart extends Component {
                 {h6}
                 <Pie data={this.state.data} options={this.state.options} />
                 <div className="row">
-                    <div className="col column ">
+                    <div className="col-sm column ">
                         <table>
                             <tbody>
                                 {this.dataRow()}
@@ -205,7 +204,7 @@ class PieChart extends Component {
                         </table>
                     </div>
 
-                    <div className="col column table-responsive" >
+                    <div className="col-sm column table-responsive" >
                         <div className="input-group">
                             <div className="input-group-prepend ">
                                 <span className="input-group-text" >
